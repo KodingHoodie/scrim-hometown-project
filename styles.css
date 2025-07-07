@@ -1,0 +1,123 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: linear-gradient(to bottom, #fefbd8, #fff, #dcedc8);
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+/* Hero Section */
+.hero {
+	background-image: url("images/flower.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 470px;
+	padding-top: 5px;
+	font-family: "Raleway", sans-serif;
+	overflow: hidden;
+}
+h1 {
+	background: #b71c1c;
+	color: white;
+	padding: 15px;
+	text-shadow: 2px 5px 6px black;
+	font-size: 2rem;
+	margin-top: 40px;
+}
+h1:hover {
+	background-color: yellow;
+	color: black;
+	text-shadow: 4px 6px 12px white;
+}
+.activity-section {
+	text-align: center;
+	font-weight: 700;
+	font-family: "DM Serif Display", serif;
+	font-size: 2.3rem;
+	color: #444;
+	text-shadow: 1px 2px 3px rgba(255, 255, 255, 0.6);
+}
+
+/* Avtivities Section */
+.activity-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #333;
+	margin: 10px;
+}
+.a-image {
+	width: 200px;
+	height: 200px;
+	border-radius: 50px;
+	box-shadow: 3px 6px 9px black;
+}
+.boat-ride,
+.horse-back,
+.flower-fest {
+	text-align: center;
+	padding: 30px;
+	margin: 0px 10px 0px 0px;
+}
+.boat-ride,
+.horse-back,
+.flower-fest {
+	transition: transform 0.3s ease;
+	cursor: pointer;
+}
+
+.boat-ride:hover,
+.horse-back:hover,
+.flower-fest:hover {
+	transform: scale(1.1);
+}
+
+/* Guide information section  */
+.information-container {
+	display: flex;
+	align-items: center;
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	gap: 25px;
+	background-color: whitesmoke;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+	padding: 20px;
+}
+.profile-img {
+	width: 150px;
+	height: auto;
+	border-radius: 20px;
+	object-fit: cover;
+}
+span {
+	border-bottom: 3px solid black;
+}
+footer {
+	font-size: 0.8rem;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 20px;
+	margin-top: 20px;
+}
+.text-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+	text-align: left;
+	line-height: 1.6;
+	color: #333;
+}
+.text-content h2 {
+	margin: 0 0 10px;
+}
+
+a {
+	color: white;
+}
